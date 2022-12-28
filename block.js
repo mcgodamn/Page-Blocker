@@ -40,8 +40,7 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
 		}
 		});
 
-		alert(blockway);
-    }
+		// alert(blockway);
 });
 
 // chrome.runtime.onMessage.addListener(function(request, sender) {
